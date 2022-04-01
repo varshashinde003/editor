@@ -1,0 +1,35 @@
+.editor {
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+}
+
+.editor__textarea {
+  font-family: sans-serif;
+  padding: 1.2rem;
+  resize: none;
+  margin: 0;
+}
+
+.editor__textarea:focus-visible {
+  outline: none;
+}
+
+textarea.editable {
+  font-family: monospace, monospace;
+}
+
+.editor__toolbar {
+  width: 100%;
+  background: #f8f8f8;
+  padding: 0.4rem 0.15rem;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+.editor ul {
+  padding-left: 1rem;
+  margin-top: 0;
+}

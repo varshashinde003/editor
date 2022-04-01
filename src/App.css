@@ -1,0 +1,12 @@
+:root {
+  font-size: 14px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-top: 3rem;
+}

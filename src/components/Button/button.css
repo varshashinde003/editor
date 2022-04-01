@@ -1,0 +1,32 @@
+button {
+  padding: 5px;
+  /* width: 2rem; */
+  height: 2rem;
+  margin: 0 0.3rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #c9c9c9;
+  border-radius: 3px;
+}
+
+.editor__button--bold {
+  font-weight: 700;
+}
+
+.editor__button--italic {
+  font-style: italic;
+}
+
+.editor__button--underline {
+  text-decoration: underline;
+}
+
+.editor__button--strikethrough {
+  text-decoration: line-through;
+}
+
+.active {
+  color: #1d1c1d;
+  background: #dbdbdb;
+}
