@@ -16,9 +16,7 @@ const Editor = ({ text, optionsVisible }) => {
         elementClass={`editor__button--${option}`}
         id={idx}
         tag={getTags(option)}
-      >
-        {option}
-      </Button>
+      />
     ));
     setToolbar(toolbar);
   }, [optionsVisible]);
